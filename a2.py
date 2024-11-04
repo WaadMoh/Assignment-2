@@ -121,7 +121,6 @@ class Order:
         return f"Order(customer=\n{self.__customer},\norder date: {self.__order_date.strftime("%Y-%m-%d %H:%M:%S")},\ntotal={self.calculate_total():.2f})"
 
 
-# Testing example
 if __name__ == "__main__":
     ebook1 = Ebook("Treasure Island", "Robert Louis Stevenson", "1883-11-14", "Adventure fiction", 100)
     ebook2 = Ebook("Alice's Adventures in Wonderland", "Lewis Carroll", "1865-11", "Portal fantasy", 75)
